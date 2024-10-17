@@ -1,0 +1,27 @@
+name: linkedin_share_example
+description: "Demonstrates how to use the linkedin_share plugin."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  linkedin_share:
+    path: ../
+
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+flutter:
+
+  uses-material-design: true
